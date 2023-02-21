@@ -564,10 +564,6 @@ body {
   height: 100%;
 }
 
-.h-28{
-  height: 7rem;
-}
-
 .min-h-screen{
   min-height: 100vh;
 }
@@ -576,32 +572,12 @@ body {
   width: 100%;
 }
 
-.w-10{
-  width: 2.5rem;
-}
-
-.w-52{
-  width: 13rem;
-}
-
-.w-32{
-  width: 8rem;
-}
-
-.w-24{
-  width: 6rem;
+.max-w-\[100px\]{
+  max-width: 100px;
 }
 
 .max-w-\[1440px\]{
   max-width: 1440px;
-}
-
-.max-w-\[50px\]{
-  max-width: 50px;
-}
-
-.max-w-\[100px\]{
-  max-width: 100px;
 }
 
 .grid-cols-1{
@@ -727,20 +703,12 @@ body {
   text-transform: uppercase;
 }
 
-.leading-relaxed{
-  line-height: 1.625;
-}
-
 .leading-loose{
   line-height: 2;
 }
 
-.leading-normal{
-  line-height: 1.5;
-}
-
-.leading-snug{
-  line-height: 1.375;
+.leading-relaxed{
+  line-height: 1.625;
 }
 
 .leading-tight{
